@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 
 const team = [
-    { name: 'Speed', role: 'Founder & Lead Developer', color: 'from-yellow-400 to-yellow-600' },
+    { name: 'Speed', role: 'Founder & Lead Developer (Abdullah Abbas)', color: 'from-yellow-400 to-yellow-600' },
     { name: 'Daniyal', role: 'Operations Manager', color: 'from-blue-400 to-blue-600' },
     { name: 'Gohar', role: 'Social Media Handler', color: 'from-purple-400 to-purple-600' },
     { name: 'Maaz', role: 'Social Media Handler', color: 'from-green-400 to-green-600' },
