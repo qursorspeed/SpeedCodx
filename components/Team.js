@@ -29,9 +29,9 @@ export default function Team() {
                             <div className={`w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br ${member.color} flex items-center justify-center text-3xl font-bold text-white shadow-lg group-hover:scale-110 transition-transform`}>
                                 {member.name[0]}
                             </div>
-                            {member.realName && <p className="text-sm font-medium text-white/80 mb-1">{member.realName}</p>}
                             <h3 className="text-xl font-bold mb-1">{member.name}</h3>
-                            <p className="text-sm text-gray-400">{member.role}</p>
+                            <p className="text-sm text-gray-400 mb-1">{member.role}</p>
+                            {member.realName && <p className="text-sm font-medium text-white/80">{member.realName}</p>}
                         </motion.div>
                     ))}
                 </div>
