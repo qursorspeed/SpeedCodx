@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 
 const team = [
-    { name: 'Speed', role: 'CEO & Developer (Abdullah Abbas)', color: 'from-yellow-400 to-yellow-600' },
+    { name: 'Speed', realName: '(Abdullah Abbas)', role: 'CEO & Developer', color: 'from-yellow-400 to-yellow-600' },
     { name: 'Daniyal', role: 'Operations Manager', color: 'from-blue-400 to-blue-600' },
     { name: 'Gohar', role: 'Social Media Handler', color: 'from-purple-400 to-purple-600' },
     { name: 'Maaz', role: 'Social Media Handler', color: 'from-green-400 to-green-600' },
@@ -30,6 +30,7 @@ export default function Team() {
                                 {member.name[0]}
                             </div>
                             <h3 className="text-xl font-bold mb-1">{member.name}</h3>
+                            {member.realName && <p className="text-sm font-medium text-white/80 mb-1">{member.realName}</p>}
                             <p className="text-sm text-gray-400">{member.role}</p>
                         </motion.div>
                     ))}
